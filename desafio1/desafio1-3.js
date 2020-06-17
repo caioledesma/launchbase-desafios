@@ -28,3 +28,6 @@ for (let u = 0; u < usuarios.length; u++){
     }
    
 }
+
+
+// Soma das despesas das receitas
