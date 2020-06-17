@@ -33,3 +33,4 @@ const programador = {
 }
 
 console.log(`O usuário ${programador.nome} tem ${programador.idade} e usa a tecnologia ${programador.tecnologias[0].nome} com a especialidade ${programador.tecnologias[0].especialidade}`);
+ 
