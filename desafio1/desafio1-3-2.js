@@ -20,28 +20,28 @@ const usuarios = [
 let somaReceitas = 0;
 function totalReceitas (usuarios) {
     for (let i = 0; i < usuarios.receitas.length; i++){
-    somaReceitas = somaReceitas + usuarios.receitas[i]}
+    somaReceitas += usuarios.receitas[i]}
         //console.log(i)
     console.log(somaReceitas)
 } 
 
-const receitaUsuario0 = totalReceitas(usuarios[0])
-const receitaUsuario1 = totalReceitas(usuarios[1])
-const receitaUsuario2 = totalReceitas(usuarios[2])
+ const receitaUsuario0 = totalReceitas(usuarios[0])
+// const receitaUsuario1 = totalReceitas(usuarios[1])
+// const receitaUsuario2 = totalReceitas(usuarios[2])
 
-//console.log(receitaUsuario0)
+console.log(receitaUsuario0)
 
 let somaDespesa = 0;
 function totalDespesas (usuarios){
     for (let d = 0; d < usuarios.despesas.length; d++) {
         somaDespesa = somaDespesa + usuarios.despesas[d]}
-    console.log(somaDespesa)
+    //console.log(somaDespesa)
     }
 
 
-const despUsuario0 = totalDespesas(usuarios[0])
-const despUsuario1 = totalDespesas(usuarios[1])
-const despUsuario2 = totalDespesas(usuarios[2])
+// const despUsuario0 = totalDespesas(usuarios[0])
+// const despUsuario1 = totalDespesas(usuarios[1])
+// const despUsuario2 = totalDespesas(usuarios[2])
 
 
 let calculo = 0;

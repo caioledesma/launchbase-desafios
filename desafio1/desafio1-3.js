@@ -23,8 +23,7 @@ for (let u = 0; u < usuarios.length; u++){
     if(usuarioTrabalhaComCss){
         console.log(`${usuarios[u].nome} trabalha com CSS`)
     } else {
-            console.log(`${usuarios[u].nome} trabalha apenas com ${usuarios[u].tecnologias} `) 
-
+            console.log(`${usuarios[u].nome} trabalha apenas com ${usuarios[u].tecnologias} `)
     }
    
 }
