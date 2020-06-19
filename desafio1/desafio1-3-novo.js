@@ -1,68 +1,68 @@
 // nova tentativa 
 
-const lista = [
+const list = [
     {
-        nome: "Caio",
-        receitas: [120, 150, 50.5],
-        despesas: [200, 100, 10]
+        name: "Caio",
+        revenue: [120, 150, 50.5],
+        expenses: [200, 100, 10]
     },
     {
-        nome: "Thiago",
-        receitas: [100, 50, 200, 300],
-        despesas: [50, 70, 25]
+        name: "Thiago",
+        revenue: [100, 50, 200, 300],
+        expenses: [50, 70, 25]
     },
     {
-        nome: "Hugo",
-        receitas: [100, 10, 30],
-        despesas: [450, 200, 100, 10, 27.42]
+        name: "Hugo",
+        revenue: [100, 10, 30],
+        expenses: [450, 200, 100, 10, 27.42]
     }
 ];
 
-//Crie um programa que calcula a soma de receitas e despesas de usuários e no fim retorna o saldo (receitas - despesas).
+//Crie um programa que calcula a sum de receitas e despesas de usuários e no fim retorna o saldo (receitas - despesas).
 
 // Percorra o array, vou precisar do for
 // pra cada usuário chama a função calculaSaldo(), recebe de parametro as receitas e despesas
 
-function calculaSaldo (receitas, despesas) {
+function calculateBalance (revenue, expenses) {
     // tem que usar a função abaixo
-    let totalReceita = somaNumeros(receitas);
-    let totalDespesas = somaNumeros(despesas);
+    let totalRevenues = sumNumbers(revenue);
+    let totalExpenses = sumNumbers(expenses);
     // tem que retornar o saldo, ou seja, receitas - despesas
-    let saldo = totalReceita - totalDespesas
+    let balance = totalRevenues - totalExpenses
     // console.log(saldo)
-    return saldo
+    return balance
 }
 
 // criar uma segunda função q recebe de parametro um array 
-// use essa função para somar e jogar a informação para dentro da calculaSaldo()
+// use essa função para sumr e jogar a informação para dentro da calculaSaldo()
 
-function somaNumeros(arrayLista){
-    //ela tem que somar os números dentro de um array
-    let soma = 0;
-    for (let xxx of arrayLista){
-        soma = soma + xxx
+function sumNumbers(arrayList){
+    //ela tem que sumr os números dentro de um array
+    let sum = 0;
+    for (let xxx of arrayList){
+        sum = sum + xxx
         // console.log(xxx)   
     }
-    return soma
+    return sum
 } 
 
-// let calcular = somaNumeros(lista)
+// let calcular = sumNumbers(list)
 
 // console.log(calcular, calcular2)
 
-for (i=0; i < lista.length ; i++){
-    let userName = lista[i].nome
-    let calcular2 = calculaSaldo(lista[i].receitas, lista[i].despesas);
+for (i=0; i < list.length ; i++){
+    let userName = list[i].name
+    let calculate = calculateBalance(list[i].revenue, list[i].expenses);
     
-    if(calcular2 > 0){
-        console.log(`${userName} tem um saldo POSITIVO de ${calcular2}`)
+    if(calculate > 0){
+        console.log(`${userName} tem um saldo POSITIVO de ${calculate}`)
     } else {
-        console.log(`${userName} tem um saldo NEGATIVO de ${calcular2}`)
+        console.log(`${userName} tem um saldo NEGATIVO de ${calculate}`)
     }
     
 } 
 
-//exibir os nomes e os saldos em tela com um SE
+//exibir os names e os saldos em tela com um SE
 
 // if ()
 
