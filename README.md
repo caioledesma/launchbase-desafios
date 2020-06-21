@@ -1,18 +1,93 @@
- <h1 align="center">
-    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300px" />
+<h1 align="center">
+Launchbase Challenges - RocketSeat Bootcamp<br />
 </h1>
 
+<br />
+<p align="center">
+<img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300"><p>
+<img src="https://www.websystemer.no/wp-content/uploads/2020/05/rocketseat-realmente-vale-a-pena-800x445.png" width="300"><p>
+
+<br />
+
 <h3 align="center">
- Launchbase - All Projects
+ Launchbase Challenges - RocketSeat Bootcamp 
 </h3>
- <p align="center"> applications developed during Rocketseat's Launchbase bootcamp </P>
- 
- <h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What is Launchbase? </h2>
- <p>LaunchBase is an online bootcamp training that lasts 8 weeks. Each week the contents are released according to a schedule, and each module has some challenges for students.</p>
- <p>During Launchbase, we worked with HTML, CSS, JavaScript, NodeJS, SQL, PostgreSQL and others.</p>
+ <p align="center"> Challenges developed during Rocketseat's Launchbase bootcamp </P>
 
-<h2> <img src= "https://img.icons8.com/all/500/project.png" width="50px" height="50px" align="center"/> Projects and Repositories </h2>
+<p align="center">
+  <a href="https://www.linkedin.com/in/caioledesma/" >
+<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Caio%20Ledesma-blue?style=flat-square&logo=linkedin">
+  </a>
+</p>
 
-<p> <a href="https://github.com/mjulialobo/Launchbase-Desafio01-JS"> Challenge 1:</a> first steps with JavaScript, multiple programs developed using simple JavaScript codes. </p>
+<h3 align="center">  
+  <a href="#information_source-sobre">Sobre</a> |
+  <a href="#interrobang-motivo">Como Funciona</a> | 
+  <a href="#wrench-instalando">Instalando</a> |
+  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
+  <a href="#ship-como-navegar">Como Navegar</a> |
+  <a href="#wave-autor">Autor</a> 
+</h3>
 
-<p> <a href="https://github.com/mjulialobo/Launchbase-Desafio02"> Challenge 2:</a> Rocketseat website using HTML, CSS and JavaScript to create an intelligent pop-up. </p>
+<br />
+
+## :information_source: Sobre
+
+Aplicação desenvolvida do zero com instrução da Escola de programação RocketSeat, para treinar a aplicação dos tecnologias de HTML, CSS, Javascript, Nunjucks e SQLite3. 
+A aplicação está hospedada no link <a href="https://heroku.com/">Link Ecoleta </a> onde você poderá adicionar novos pontos de coleta e pesquisar por pontos na sua região.
+
+<br />
+
+### Cadastro
+
+<img alt="Gif cadastrando um ponto" src="https://ik.imagekit.io/tdrippvoj8/cadastro-ponto-ecoleta_m_r0uszvi.gif" width=800>
+
+
+### Consulta ao Banco de Dados
+
+<img alt="Gif cadastrando um ponto" src="https://ik.imagekit.io/tdrippvoj8/consulta-banco-ecoleta_QdcqEXHkV.gif" width=800>
+
+<br />
+
+## :question: Como Funciona
+
+Essa é uma aplicação de treino para ver na prática a aplicação das ferramentas e tecnologias, assim como a lógica de banco de dados
+
+<br />
+
+## :wrench: Instalando
+
+Para instalar é bem simples: 
+1. Baixe o ZIP
+2. No navegador chrome digite: chrome://extensions/
+3. No canto direito do navegador ative o Modo do desenvolvedor
+4. Arraste a pasta inteira para o navegador
+5. Atualize a página do WhatsApp Web 
+
+<br />
+
+## :rocket: Tecnologias Utilizadas
+
+- Javascript 
+- CSS
+- HTML
+- Nunjucks
+- SQLite3
+
+<br />
+
+## :ship: Como Navegar
+Para acessa basta clicar no link <a href="https://heroku.com/">Link Ecoleta </a>. Para ir além do que foi proposta no curso eu hospedei a aplicação na plataforma Heroku para melhorar a sua experiência de visualização. 
+
+<details>
+<summary>Se preferir, siga as instruções de instalação:</summary>
+<br>
+Em breve as instruções de instalação
+</details>
+
+---
+
+
+### :wave: Autor
+In the process to be a great Product Engineer... join me! 
+
