@@ -4,7 +4,11 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
 
 <br />
 <p align="center">
-<img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300">
+<img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" style="logo1" >
+ img[src$="logo1"] {
+  display:block;
+  margin: 0 auto;
+}
 <img src="https://www.websystemer.no/wp-content/uploads/2020/05/rocketseat-realmente-vale-a-pena-800x445.png" width="300"><p>
 <br />
 
