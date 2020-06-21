@@ -24,7 +24,7 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
 <h3 align="center">  
   <a href="#information_source-sobre">About</a> |
   <a href="#question-challenges">Challenges</a> | 
-  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
+  <a href="#rocket-tecnologias-utilizadas">Technologies</a> | 
   <a href="#wave-autor">Autor</a>  
 </h3>
 
