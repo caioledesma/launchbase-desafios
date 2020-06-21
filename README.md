@@ -21,7 +21,7 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
 
 <h3 align="center">  
   <a href="#information_source-sobre">About</a> |
-  <a href="#interrobang-challenges">Challenges</a> | 
+  <a href="#question-challenges">Challenges</a> | 
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
   <a href="#wave-autor">Autor</a>  
 </h3>
@@ -30,17 +30,17 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
 
 ## :information_source: About
 
-Aplicação desenvolvida do zero com instrução da Escola de programação RocketSeat, para treinar a aplicação dos tecnologias de HTML, CSS, Javascript, Nunjucks e SQLite3. 
-A aplicação está hospedada no link <a href="https://heroku.com/">Link Ecoleta </a> onde você poderá adicionar novos pontos de coleta e pesquisar por pontos na sua região.
+LaunchBase is an online bootcamp made by RocketSeat School, the training consist in a practical way of learning with a mentoring of a Sênior programming teacher, with a weekly follow-up. The course is based on concepts of programming theories mixed with practical challenges.
 
 
 ## :question: Challenges
 
-Essa é uma aplicação de treino para ver na prática a aplicação das ferramentas e tecnologias, assim como a lógica de banco de dados
+<p>Challenge 1:</a> first steps with JavaScript, multiple programs and paradigms developed with JavaScript. </p>
 
+<p>Challenge 2:</a> Rocketseat website using HTML, CSS and JavaScript to create a smart pop-up. </p>
 <br />
 
-## :rocket: Tecnologias Utilizadas
+## :rocket: Technologies
 
 - Javascript 
 - CSS
