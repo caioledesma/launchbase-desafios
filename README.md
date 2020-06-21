@@ -16,6 +16,9 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
   <a href="https://www.linkedin.com/in/caioledesma/" >
 <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Caio%20Ledesma-blue?style=flat-square&logo=linkedin">
   </a>
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
+  </a>
 </p>
 
 <h3 align="center">  
