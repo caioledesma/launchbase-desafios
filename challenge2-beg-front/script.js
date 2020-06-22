@@ -6,13 +6,9 @@ for (let card of cards){
         const cardId = card.getAttribute('id')
         modalGeral.classList.add('active')
         modalGeral.querySelector('iframe').src = `https://rocketseat.com.br/${cardId}`
-        modalGeral.classList.maximize('iframe')
+        modalGeral.classList.contains('.modal')
     })
 }
-
-
-
-
 
 document.querySelector('.close-modal').addEventListener('click',function(){
     modalGeral.classList.remove('active')

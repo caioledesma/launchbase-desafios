@@ -107,7 +107,7 @@ main ul li{
 }
 
 footer div{
-    height: 10vh;
+    height: 8vh;
     border-top: 1px solid rgba(211, 211, 211,0.4);
     display: flex;
     flex-direction: row;
@@ -136,8 +136,6 @@ footer div h3:hover {
 
 
 /* CARDS */
-
-
 
 section {
     display: grid;
