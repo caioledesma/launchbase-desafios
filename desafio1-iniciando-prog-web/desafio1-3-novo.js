@@ -3,7 +3,7 @@
 const list = [
     {
         name: "Caio",
-        revenue: [120, 150, 50.5],
+        revenue: [120, 150, 40],
         expenses: [200, 100, 10]
     },
     {
