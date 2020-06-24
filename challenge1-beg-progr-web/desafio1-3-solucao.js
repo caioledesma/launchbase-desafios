@@ -28,16 +28,12 @@ function somaNumeros(numeros) {
   return soma
 }
 
-
-
 function calculaSaldo(receitas, despesas) {
   const somaReceitas = somaNumeros(receitas)
   const somaDespesas = somaNumeros(despesas)
-
+  
   return somaReceitas - somaDespesas
 }
-
-
 
 for (let usuario of usuarios) {
   const saldo = calculaSaldo(usuario.receitas, usuario.despesas)
