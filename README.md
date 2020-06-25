@@ -35,14 +35,11 @@ LaunchBase is an online bootcamp made by RocketSeat School, the training consist
 <p>Challenge 1:</a> first steps with JavaScript, multiple programs and paradigms developed with JavaScript. </p>
 
 <p>Challenge 2:</a> Rocketseat website using HTML, CSS and JavaScript to create a smart pop-up. </p>
-<br />
 
 <p>Challenge Foodfy:</a> A new website with recipes in grid format coded with HTML, CSS and JavaScript. </p>
-<br />
 
 <p>Challenge 3:</a> Setting up a new server and installing Express and Nunjucks template engine. </p>
 <br />
-
 
 ## :rocket: Technologies
 
