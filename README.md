@@ -5,11 +5,6 @@ Launchbase Challenges - RocketSeat Bootcamp<br />
 <br />
 <p align="center">
 <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300"><p>
-
-<br />
-<h3 align="center">
- Launchbase Challenges - RocketSeat Bootcamp 
-</h3>
  <p align="center"> Challenges developed during Rocketseat's Launchbase bootcamp </P>
 
 <p align="center">
@@ -42,17 +37,25 @@ LaunchBase is an online bootcamp made by RocketSeat School, the training consist
 <p>Challenge 2:</a> Rocketseat website using HTML, CSS and JavaScript to create a smart pop-up. </p>
 <br />
 
+<p>Challenge Foodfy:</a> A new website with recipes in grid format coded with HTML, CSS and JavaScript. </p>
+<br />
+
+<p>Challenge 3:</a> Setting up a new server and installing Express and Nunjucks template engine. </p>
+<br />
+
+
 ## :rocket: Technologies
 
 - Javascript 
 - CSS
 - HTML
+- Node.js
+- Express
 - Nunjucks
 - SQLite3
 
 
 ---
-
 
 ### :wave: Autor
 In the process to be a great Product Engineer... join me! 
