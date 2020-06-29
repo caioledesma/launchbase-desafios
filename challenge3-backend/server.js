@@ -21,10 +21,14 @@ server.get("/", function(req,res) {
     return res.render("about")
  }) 
 
- server.get("/*", function(req,res) {
-    return res.render("not-found")
- }) 
+ // uma forma de fazer o 404 só pra digitação errada na URL
+//  server.get("/*", function(req,res) {
+//     return res.render("not-found")
+//  }) 
 
+server.use(function(req, res){
+    res.status(404).render("not-found")
+})
 
 server.listen(5000, function() {
     console.log("Run Forest run!")
