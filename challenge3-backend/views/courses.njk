@@ -10,13 +10,15 @@
         <main class="main-courses">
             <section class="cards">
 
-                <div id="starter" class="card">
-                    <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Logo RocketSeat">
-                    <h1>Começo da Jornada</h1>
-                    <h4>8 módulos com 10 aulas cada</h4>
-                </div>
+                {% for course in courses %}
+                    <div id="{{course.name}}" class="card">
+                        <img src="{{course.logo}}" alt="Logo do curso {{course.name}}">
+                        <p class="title">{{course.title}}</p>
+                        <h4>{{course.description}}</h4>
+                    </div>
+                {%endfor%}
 
-                <div id="launchbase" class="card">
+                {# <div id="launchbase" class="card">
                     <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="Logo RocketSeat">
                     <h1>Para quem quer decolar</h1>
                     <h4>7 módulos com 14 aulas cada</h4>
@@ -26,7 +28,7 @@
                     <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="Logo RocketSeat">
                     <h1>Seu próximo nível</h1>
                     <h4>10 módulos com 12 aulas cada</h4>
-                </div>
+                </div> #}
             </section>
 
 
