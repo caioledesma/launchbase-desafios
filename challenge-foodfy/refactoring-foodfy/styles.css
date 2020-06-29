@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    background-color: white;
+    /* height: 150vh; */
+    /* width: 1400px; */
+    /* max-width: 960px; */
+    /* margin: 0 auto; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.logo img{
+    padding: 30px 0;
+    margin: 0;
+    height: 26.9px;
+}
+
+.menu{
+    margin-left: 77px;
+    
+}
+
+.menu a{
+    padding: 0 15px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho {
+    background-color:#FBDFDB;
+    display: flex;
+    flex-direction: row;
+    height: 366px;
+    width: 960px;
+    border-radius: 30px;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+texto.cabecalho{
+    position: relative;
+}
+.texto-cabecalho h1{
+    margin: 117px 575px 211px 60px;
+    width: 305px;
+    height: 38px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    color: #111111;
+}
+
+.texto-cabecalho p{
+    margin: 165px 564px 117px 60px;
+    width: 316px;
+    height: 84px;
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+   
+}
+
+.img-cabecalho{
+    /* display: flex:; */
+    margin: 66px 100px 0 624px;
+    position: absolute;
+}
+
+/* MAIS ACESSADAS  */
+
+.titulo-h2{
+    max-width: 960px;
+    margin: auto;
+}
+
+.titulo-h2 h2{
+    margin-top: 50px;
+    margin-bottom:20px;
+    font-size: 24px;
+    /* margin-left: 13.7%; */
+    /* max-width: 960px; */     
+}
+
+
+/* CARDS */
+.cards{
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+
+}
+
+.card{
+    border-radius: 15px; 
+    cursor: pointer;
+
+    
+}
+
+.img-card img{ 
+    width: 100%;
+    border-radius: 15px; 
+
+}
+
+.info-card h3{
+    margin: 20px 0 5px;
+    font-weight: 400;
+}
+
+.info-card p{
+    font-size: 14px;
+    color: #777777;
+}
+
+
+
+/* FOOTER */
+
+
+footer{
+    width: 100%;
+    margin: 50px 0 0 0;
+    height: 62px;
+    background-color: #eeeeee;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+/* SOBRE */
+
+div.about{
+    max-width: 960px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+
+.about h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* margin-left: 13.7%; */
+    /* max-width: 960px; */     
+}
+
+div.begin{
+    max-width: 960px;
+    margin: 30px auto 0;
+    line-height: 28px;
+}
+.begin h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+div.recipes{
+    max-width: 960px;
+    margin: 30px auto 0;
+    line-height: 28px;
+}
+.recipes h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* MODAL */
+
+
+.modal-geral{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    
+    
+}
+
+.modal-geral.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 500ms;
+}
+
+.modal{
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    position: relative;
+    margin: 95px auto;
+    border-radius: 16px;
+     
+}
+
+.modal-content{
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    /* height: 100px; */
+    /* position: absolute; */
+    /* height: 100%; */
+    /* width: 100%;  */
+    display: grid;
+    grid-template-rows: 200px 100px 50px;
+    /* justify-content: space-between; */
+}
+
+.modal-content .img-card img{
+    height: 100%;
+    width: 600px;
+    /* width: 80%; */
+    /* position: relative; */
+    /* position: relative; */
+}
+
+.modal-content .info-card h3{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.modal-content .info-card p{
+    font-size: 18px;
+    line-height: 21px;
+    color: #777777
+}
+
+.close-modal{
+    margin: 30px auto;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.close-modal p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+}
+
