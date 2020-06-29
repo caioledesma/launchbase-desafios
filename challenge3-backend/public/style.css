@@ -287,3 +287,32 @@ iframe{
     opacity: 1;
     visibility: visible;
 }
+
+
+/* PAGINA SOLO */
+
+.main-solo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards-solo{
+    /* border: 2px solid rgb(24, 25, 53); */
+    border-radius: 20px;
+    height: 90%;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    margin: 100px auto;
+}
+
+
+.text-solo a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+
+}

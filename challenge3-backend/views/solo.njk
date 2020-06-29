@@ -1,0 +1,44 @@
+{% extends "layout.njk" %}
+
+
+{% block title%}
+    <title>Card Solo - Challenge 3.3</title>
+{%endblock%}
+
+{% block content %}
+
+        <main class="main-solo">
+            <nav class="cards-solo">
+
+                {# {% for course in courses %} #}
+                    <div id="{{course.name}}" class="card">
+                        <img src="{{course.logo}}" alt="Logo do curso {{course.name}}">
+                        {# <p class="title">{{course.title}}</p>
+                        <h4>{{course.description}}</h4> #}
+                    </div>
+                {# {%endfor%} #}
+            </nav>
+            <div class="text-solo">
+
+                <p class="title">{{course.title}}</p>
+                <h4>{{course.description}}</h4>
+                <a href="https://rocketseat.com.br/{{course.name}}" target="blank"><h4>Clique aqui e saiba mais</h4></a>
+
+            </div>
+
+            {# <div class="modal-geral">
+                
+                <div class="modal">
+                    <div class="close-modal"><i class="material-icons">close</i></div>
+
+                     <div class="content">
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
+
+                </div>
+
+            </div> #}
+            
+        </main>
+
+{% endblock %}
