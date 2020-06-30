@@ -115,14 +115,13 @@ texto.cabecalho{
 
 .card{
     border-radius: 15px; 
-    cursor: pointer;
-
     
 }
 
 .img-card img{ 
     width: 100%;
     border-radius: 15px; 
+    cursor: pointer;
 
 }
 

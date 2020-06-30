@@ -20,16 +20,11 @@
         
         <div class="list-ingredients">
             
+            {%for ingredient in items.ingredients%}
             <ul>
-                <li>{{[items.ingredient]}}</li> 
-
-            {# {%for ingredient in items.ingredients%}
-
-                {# <li>3 kg de carne moída (escolha uma carne magra e macia)</li>
-                <li>300 g de bacon moído</li>
-                <li>1 ovo</li> #}
-            {# {%endfor%} #}
+                <li>{{ingredient}}</li> 
             </ul>
+            {% endfor %}
         </div>  
     </div>
     
@@ -39,13 +34,11 @@
             <p>esconder/mostrar</p>
         </div>
         <div class="list-preparation">
-            {# {% for item do preparation %} #}
+            {% for step in items.preparation %}
             <ul>
-                {# <li>{%item do preparation %}</li> #}
-                <li> Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.</li>
-                <li>Faça porções de 90 g a 100 g.</li>
-                
+                <li>{{step}}</li>
             </ul>
+            {% endfor %}
         </div>
     </div>
 
@@ -53,8 +46,7 @@
         <div class="title-aditional-info">
             <h3 class="h3-aditional-info">Informações Adicionais</h3>      
         </div>
-        <p class="text-aditional-info">"Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!\nVocê sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
-        </p>
+        <p class="text-aditional-info">{{items.information}}</p>
     </div>
     
     
