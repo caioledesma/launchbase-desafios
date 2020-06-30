@@ -273,3 +273,71 @@ div.recipes{
     color: #999999;
 }
 
+
+/* CHALLENGE REFACTORING */
+
+.detalhe-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.image-container img{
+    border-radius: 30px;
+    width: 100%;
+}
+
+.text-container{
+    text-align: center;
+    margin: 50px;
+}
+
+.text-container h3{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.text-container p{
+    color: #777777;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.ingredients-container, .preparation-container{
+    margin-bottom: 39px;
+}
+
+.title-ingredients, .title-preparation{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.title-ingredients h3, .title-preparation h3, .title-aditional-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.title-ingredients p, .title-preparation p{
+    padding: 8px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.list-ingredients, .list-preparation{
+    list-style-position: inside;
+    color: #444444;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-aditional-info{
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 20px;
+}

@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Caio's Foodfy - Sobre</title>
-</head>
-    <body>
-        <header>
-            <div class="logo">
-                <a href="index.html"><img src="assets/logo.png" alt="Logo Foodfy"></a>
-            </div>
-            <div class="menu">
-                <b><a href="sobre.html">Sobre</a></b>
-                <a href="receitas.html">Receitas</a>
-            </div>
-        </header>
+{% extends "layout.njk" %}
+
+{% block content %}
         
         <nav>
             <div class="about">
@@ -39,14 +24,4 @@
 
         </nav>
         
-        <footer>
-            <p>Todos direitos reservados, receitas Foodfy</p>
-        </footer>
-
-        
-
-
-
-
-    </body>
-</html>
+{% endblock %}}

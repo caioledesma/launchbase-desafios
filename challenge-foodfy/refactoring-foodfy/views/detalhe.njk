@@ -1,0 +1,61 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="detalhe-container">
+    
+    <div class="image-container">
+        <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/burger.png" alt="">
+    </div>
+    <div class="text-container">
+        <h3>Triplo bacon burger</h3>
+        <p>Jorge Relato</p>
+    </div>
+    
+    <div class="ingredients-container">
+        <div class="title-ingredients">
+            <h3 class="h3-ingredients">Ingredientes</h3>
+            <p>esconder/mostrar</p>
+        </div>
+        
+        <div class="list-ingredients">
+            
+            {# {%for %} #}
+            <ul>
+                {# <li>{%item do ingrediente%}</li> #}
+                <li>3 kg de carne moída (escolha uma carne magra e macia)</li>
+                <li>300 g de bacon moído</li>
+                <li>1 ovo</li>
+            
+            </ul>
+        </div>  
+    </div>
+    
+    <div class="preparation-container">
+        <div class="title-preparation">
+            <h3 class="h3-preparation">Modo de Preparo</h3>
+            <p>esconder/mostrar</p>
+        </div>
+        <div class="list-preparation">
+            {# {% for item do preparation %} #}
+            <ul>
+                {# <li>{%item do preparation %}</li> #}
+                <li> Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.</li>
+                <li>Faça porções de 90 g a 100 g.</li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="aditional-info-container">
+        <div class="title-aditional-info">
+            <h3 class="h3-aditional-info">Informações Adicionais</h3>      
+        </div>
+        <p class="text-aditional-info">"Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!\nVocê sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
+        </p>
+    </div>
+    
+    
+</div>
+
+{% endblock %}
