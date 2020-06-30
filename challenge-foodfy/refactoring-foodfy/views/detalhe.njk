@@ -15,17 +15,21 @@
     <div class="ingredients-container">
         <div class="title-ingredients">
             <h3 class="h3-ingredients">Ingredientes</h3>
-            <p>esconder/mostrar</p>
+            <p class="hide">Mostrar</p>
+            <p class="">Esconder</p>
         </div>
         
-        <div class="list-ingredients">
-            
-            {%for ingredient in items.ingredients%}
-            <ul>
-                <li>{{ingredient}}</li> 
-            </ul>
-            {% endfor %}
-        </div>  
+        <div class="hide">
+            <div class="list-ingredients">
+                
+                {%for ingredient in items.ingredients%}
+                <ul>
+                    <li>{{ingredient}}</li> 
+                </ul>
+                {% endfor %}
+                
+            </div>  
+        </div>
     </div>
     
     <div class="preparation-container">
@@ -48,8 +52,7 @@
         </div>
         <p class="text-aditional-info">{{items.information}}</p>
     </div>
-    
+    {# <script src="script-detail.js"></script> #}
     
 </div>
-
 {% endblock %}

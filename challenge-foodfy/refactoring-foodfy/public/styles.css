@@ -340,3 +340,7 @@ div.recipes{
     color: #444444;
     margin-top: 20px;
 }
+
+.hide{
+    display: none;
+}
