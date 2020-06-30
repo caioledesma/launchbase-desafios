@@ -15,8 +15,8 @@
     <div class="ingredients-container">
         <div class="title-ingredients">
             <h3 class="h3-ingredients">Ingredientes</h3>
-            <p class="hide">Mostrar</p>
-            <p class="">Esconder</p>
+            <p class="hide">MOSTRAR</p>
+            <p class="">ESCONDER</p>
         </div>
         
         <div class="hide">
@@ -27,7 +27,7 @@
                     <li>{{ingredient}}</li> 
                 </ul>
                 {% endfor %}
-                
+
             </div>  
         </div>
     </div>
@@ -35,7 +35,7 @@
     <div class="preparation-container">
         <div class="title-preparation">
             <h3 class="h3-preparation">Modo de Preparo</h3>
-            <p>esconder/mostrar</p>
+            <p>ESCONDER/MOSTRAR</p>
         </div>
         <div class="list-preparation">
             {% for step in items.preparation %}
@@ -52,7 +52,7 @@
         </div>
         <p class="text-aditional-info">{{items.information}}</p>
     </div>
-    {# <script src="script-detail.js"></script> #}
+    <script src="script-detail.js"></script>
     
 </div>
 {% endblock %}
