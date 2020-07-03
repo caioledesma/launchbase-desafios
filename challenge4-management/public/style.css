@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/* :root{
+    --primary-color: #e7e7e7
+} 
+só de exemplo pra lembrar como faz var em css
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -25,13 +31,39 @@ header {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+    position: relative;
 }
 
 .links a + a {
     margin-left: 40px;
 }
 
+/* .links a:hover{
+    color: white;
+} */
+
+.links a.active{
+    font-weight: 700;
+
+}
+
+/* nesse caso eu criei um pseudo elemento que é o ::after e ele só aparece quando ta com o mouse em cima por conta do hove, logo depois adicionamos o transition para dar o movimento */
+.links a::after{
+    content: "";
+    background-color: white;
+    height: 2px;
+    position: absolute; /* com o absolute aqui precisamos colocar no elemento pai o position: relative, nesse caso é o a*/
+    left: 0;
+    bottom: -4px;
+    margin-bottom: 2px;
+    width: 0%; /* aqui é o estado inicial do transition */
+
+}
+
+
 .links a:hover::after{
     width: 100%;
-    background-color: white;
+    transition: width 300ms ease-in-out ; /* no transition tem várias formas de fazer, só pra uma propriedade ex: "width" ou para todos "all" */
 }
+
+
