@@ -4,8 +4,7 @@
 
 <html>
     <head>
-        
-
+    
         {% block head %}
             <title> Challenge 4 </title>
         {%endblock%}
@@ -13,15 +12,15 @@
         <link rel="stylesheet" href="/style.css">
     </head>
 
-        <body>
-            <header>
-                <div class="links">
-                    <a href="/">Teachers</a>
-                    <a href="/">Student</a> 
-                </div>
-            </header>
-              
-            {% block content %}{% endblock %}
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">Teachers</a>
+                <a href="/">Student</a> 
+            </div>
+        </header>
+            
+        {% block content %}{% endblock %}
 
-        </body>
+    </body>
 </html>
